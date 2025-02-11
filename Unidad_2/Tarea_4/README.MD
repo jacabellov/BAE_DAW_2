@@ -14,5 +14,5 @@ Diseña el modelo entidad-relación resultante a través de diagrams.io.
 
 ## RESPUESTA
 
-<src img=/Imagenes/Tarea_4.drawio.png>
+<src img=Imagenes/Tarea_4.drawio.png>
 

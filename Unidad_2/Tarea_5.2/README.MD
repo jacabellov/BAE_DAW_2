@@ -12,4 +12,4 @@ Construye a través de diagrams.io.
 
 ## RESPUESTA
 
-<img src="/Imagenes/Tarea_5.2.drawio.png">
+<img src="Imagenes/Tarea_5.2.drawio.png">

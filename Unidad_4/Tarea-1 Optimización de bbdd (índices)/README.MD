@@ -17,7 +17,7 @@ Se pide:
 DROP TABLE IF EXISTS alumno;
 ```
 
-<IMG SRC=IMG/IMG1.PNG>
+<IMG SRC=IMG/IMG1.png>
 
 - Cree la tabla definiendo una clave primaria compuesta (año de inscripción y número de 
 inscripción).
@@ -41,7 +41,7 @@ CREATE INDEX idx_ciudad_provincia ON alumno (ciudad, provincia);
     - Vea los índices de la tabla.
         >__Nota__:_Muestra el comando y la salida __"show index"___.
 
-<IMG SRC=IMG/IMG3.PNG>
+<IMG SRC=IMG/IMG3.png>
 
 - Intente ingresar un alumno con clave primaria repetida.
     >__Nota__:_Muestra el comando y la salida_.
@@ -51,7 +51,7 @@ INSERT INTO alumno VALUES (1, 2024, 'Ana Ruiz', '12345678', 'Calle A 123', 'Cór
 
 INSERT INTO alumno VALUES (1, 2024, 'Luis Gómez', '87654321', 'Calle B 456', 'Rosario', 'Santa Fe');
 ```
-<IMG SRC=IMG/IMG4.PNG>
+<IMG SRC=IMG/IMG4.png>
 
 - Intente ingresar un alumno con documento repetido.
     >__Nota__:_Muestra el comando y la salida_.
@@ -60,7 +60,7 @@ INSERT INTO alumno VALUES (1, 2024, 'Luis Gómez', '87654321', 'Calle B 456', 'R
 INSERT INTO alumno VALUES (2, 2024, 'Carla Fernández', '12345678', 'Calle C 789', 'Salta', 'Salta');
 ```
 
-<IMG SRC=IMG/IMG5.PNG>
+<IMG SRC=IMG/IMG5.png>
 
 - Ingrese varios alumnos de la misma ciudad y provincia.
     >__Nota__:_Muestra el comando y la salida_.
@@ -80,4 +80,4 @@ DROP INDEX idx_documento ON alumno;
 DROP INDEX idx_ciudad_provincia ON alumno;
 ```
 
-<IMG SRC=IMG/IMG6.PNG>
+<IMG SRC=IMG/IMG6.png>

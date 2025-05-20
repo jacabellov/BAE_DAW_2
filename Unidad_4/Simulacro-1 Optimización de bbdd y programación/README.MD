@@ -200,7 +200,7 @@ CREATE PROCEDURE RESUMEN_CLIENTE(IN CLIENTE_ID INT) BEGIN SELECT C.NOMBRE AS NOM
 ```SQL
 CALL resumen_cliente(1);
 ```
-<IMG SRC='IMG/img8.png'>
+<IMG SRC='img/img8.png'>
 
 ---
 

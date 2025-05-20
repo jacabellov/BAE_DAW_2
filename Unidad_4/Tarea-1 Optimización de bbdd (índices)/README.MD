@@ -26,7 +26,7 @@ inscripción).
 CREATE TABLE alumno (numero_inscripcion INT NOT NULL, año_inscripcion INT NOT NULL, nombre VARCHAR(100), documento VARCHAR(20), domicilio VARCHAR(150), ciudad VARCHAR(100), provincia VARCHAR(100), PRIMARY KEY (año_inscripcion, numero_inscripcion));
 ```
 
-<img src=IMG/IMG2.PNG>
+<img src=IMG/IMG2.png>
 
 - Define los siguientes indices:
    - Un índice único por el campo "documento" y un índice común por ciudad y provincia.
